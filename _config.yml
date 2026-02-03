@@ -1,0 +1,30 @@
+title: SinghSK
+description: Engineering · Cloud · DevOps · GitHub Pages
+url: https://www.singhsk.com
+baseurl: ""
+
+author:
+  name: SinghSK
+  email: santoshkumar.singh@aristocrat.com
+
+permalink: /blog/:title/
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+google_analytics: G-XXXXXXXXXX
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      image: /assets/images/og-default.png

@@ -1,0 +1,29 @@
+# Build output
+_site/
+
+# Jekyll caches
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler/vendor
+.bundle/
+vendor/
+
+# Node
+node_modules/
+
+# Ruby lockfile (local)
+Gemfile.lock
+
+# Local-only config
+_config.local.yml
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs and temp
+*.log
+tmp/
