@@ -1,0 +1,30 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #000;
+}
+
+body.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+header, footer {
+  background: #1e293b;
+  padding: 15px;
+}
+
+nav a, nav button {
+  color: #fff;
+  margin-right: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
