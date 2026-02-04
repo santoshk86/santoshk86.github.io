@@ -1,0 +1,129 @@
+---
+layout: default
+title: CV
+---
+
+<!-- CV Page -->
+<section class="section">
+  <h2>Downloadable CV</h2>
+  <p>Latest CV in PDF format. Versioned for clarity.</p>
+  <p>
+    <a class="button primary" href="{{ "/assets/cv/cv.pdf" | relative_url }}" target="_blank" rel="noopener">
+      Download CV (PDF)
+    </a>
+  </p>
+</section>
+
+<section class="section">
+  <h2>Detailed CV (Web Version)</h2>
+  <!-- Professional Summary -->
+  <h3>Professional Summary</h3>
+  <p>A high-level technical leader responsible for shaping the architecture, strategy, and quality of complex software systems across multiple teams.</p>
+
+  <!-- Skills -->
+  <h3>Skills</h3>
+  <div class="grid cards">
+    <div class="card">
+      <h3>>Microsoft Tech</h3>
+      <ul class="clean">
+        <li>.Net framework, .Net core</li>
+        <li>Micro APIs</li>
+        <li>SQL Server, MySql</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Backend</h3>
+      <ul class="clean">
+        <li>.NET, C# APIs</li>
+        <li>Python ETL</li>
+        <li>REST, gRPC, messaging</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Cloud</h3>
+      <ul class="clean">
+        <li>Azure SQL, Managed Instances</li>
+        <li>Azure Data Factory, Synapse</li>
+        <li>Containers, CI/CD, IaC (Bicep/Terraform)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>AI</h3>
+      <ul class="clean">
+        <li>Embedding search over documentation</li>
+        <li>LLM-assisted incident analysis</li>
+        <li>Prompt engineering for DevOps workflows</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Tools</h3>
+      <ul class="clean">
+        <li>GitHub, Actions, Workflows</li>
+        <li>Docker, Kubernetes basics</li>
+        <li>Observability: PerfMon, Query Store, Grafana</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Work Experience -->
+  <h3>Work Experience</h3>
+  <div class="grid">
+    <div class="card">
+      <h3>Acme Corp — Senior Database Architect</h3>
+      <p class="meta">2022 — Present</p>
+      <ul>
+        <li>Led SQL Server consolidation; reduced infra cost by 28%.</li>
+        <li>Designed HA/DR topology with RPO < 30s and RTO < 5m.</li>
+        <li>Built performance observability dashboards; 37% latency reduction.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>DataScale Ltd — Database Engineer</h3>
+      <p class="meta">2018 — 2022</p>
+      <ul>
+        <li>Migrated on-prem workloads to Azure SQL with zero downtime.</li>
+        <li>Implemented index strategies and partitioning for 2TB OLTP.</li>
+        <li>Automated nightly health checks and capacity forecasts.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>TechWorks — Software Engineer</h3>
+      <p class="meta">2015 — 2018</p>
+      <ul>
+        <li>Developed ETL pipelines and data APIs.</li>
+        <li>Improved query performance via caching and hints.</li>
+        <li>Contributed to monitoring/alerting playbooks.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Major Projects -->
+  <h3>Major Projects</h3>
+  <div class="grid">
+    <div class="card">
+      <h3>Global Order Processing Platform</h3>
+      <ul class="clean">
+        <li><strong>Problem</strong>: Inconsistent latency and frequent timeouts.</li>
+        <li><strong>Solution</strong>: Query Store analysis, index redesign, and read replicas.</li>
+        <li><strong>Tech</strong>: SQL Server, Azure SQL MI, .NET APIs, Grafana.</li>
+        <li><strong>Impact</strong>: 45% p95 latency reduction; 99.95% availability.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Analytics Lakehouse Migration</h3>
+      <ul class="clean">
+        <li><strong>Problem</strong>: Batch analytics too slow for reporting SLAs.</li>
+        <li><strong>Solution</strong>: Incremental pipelines; columnar storage; orchestration.</li>
+        <li><strong>Tech</strong>: Synapse, Data Factory, Parquet, Python.</li>
+        <li><strong>Impact</strong>: 60% faster refresh; cost optimized by 22%.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <h3>Education</h3>
+  <ul>
+    <li>B.Tech. in Computer Science — XYZ University</li>
+    <li>Certifications: Azure Database Administrator Associate</li>
+  </ul>
+</section>
