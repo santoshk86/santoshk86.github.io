@@ -1,30 +1,43 @@
-title: SinghSK
-description: Engineering · Cloud · DevOps · GitHub Pages
-url: https://www.singhsk.com
-baseurl: ""
+title: "Santosh Kumar Singh"
+description: "Principal Software Engineer — .Net, ML, AI"
+url: "https://santoshk86.github.io" # Update if deploying under a custom domain
+baseurl: "" # For user/organization pages, keep empty
 
-author:
-  name: SinghSK
-  email: santoshkumar.singh@aristocrat.com
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
 
-permalink: /blog/:title/
+permalink: /blog/:year/:month/:day/:title/
 
-theme: minima
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-google_analytics: G-XXXXXXXXXX
-
-paginate: 5
-paginate_path: "/blog/page:num/"
-
+# Defaults for posts
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
-      layout: post
-      image: /assets/images/og-default.png
+      layout: "post"
+      author: "Santosh Kumar Singh"
+      comments: false
+
+# Site-wide variables (edit as needed)
+author:
+  name: "Santosh Kumar Singh"
+  email: "santosh.singh.20@gmail.com"
+  location: "USA"
+  role: "Principal Software Engineer"
+  summary: "High-level technical leader responsible for driving software strategy, system architecture, and innovation across multiple teams or platforms."
+
+social:
+  linkedin: "https://www.linkedin.com/in/singhk86/"
+  github: "https://github.com/santoshk86"
+  stackoverflow: ""
+
+# Exclude build artifacts
+exclude:
+  - README.md
+  - readme.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
