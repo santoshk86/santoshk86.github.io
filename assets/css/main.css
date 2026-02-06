@@ -18,8 +18,8 @@ body {
 }
 
 .site-header {
-  border-bottom: 1px solid #ddd;
-  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--bg);
 }
 
 .nav {
@@ -69,6 +69,9 @@ body {
   --bg: #121212;
   --text: #eaeaea;
   --accent: #4dabf7;
+}
+.dark .site-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 body {
