@@ -1,105 +1,136 @@
-/*
-  Utsav Verma — Personal Site Styles
-  Clean, responsive, developer-focused design with subtle interactions.
-*/
-
 :root {
   --bg: #ffffff;
-  --text: #0f172a; /* slate-900 */
-  --muted: #475569; /* slate-600 */
-  --link: #2563eb; /* blue-600 */
-  --accent: #0ea5e9; /* sky-500 */
-  --border: #e2e8f0; /* slate-200 */
-  --card: #f8fafc; /* slate-50 */
+  --text: #222;
+  --accent: #007acc;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0b1220;
-    --text: #e5e7eb;
-    --muted: #94a3b8;
-    --link: #60a5fa;
-    --accent: #38bdf8;
-    --border: #1f2937;
-    --card: #111827;
-  }
-}
-
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, sans-serif;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.6;
 }
 
-.container { max-width: 1000px; margin: 0 auto; padding: 0 1.25rem; }
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
 
-header.site-header {
-  border-bottom: 1px solid var(--border);
+.site-header {
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+.page h1,
+.post h1 {
+  margin-top: 0;
+}
+
+.post-date {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  color: #777;
+  font-size: 0.9rem;
+}
+:root {
+  --bg: #ffffff;
+  --text: #222;
+  --accent: #007acc;
+}
+
+.dark {
+  --bg: #121212;
+  --text: #eaeaea;
+  --accent: #4dabf7;
+}
+
+body {
   background: var(--bg);
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  color: var(--text);
 }
-header .container { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-.brand { font-weight: 700; letter-spacing: 0.3px; }
-nav a { color: var(--text); text-decoration: none; margin-left: 1rem; }
-nav a:hover { color: var(--link); }
-
-.hero {
-  padding: 4rem 0 2rem;
+.post {
+  margin-bottom: 4rem;
 }
-.hero h1 { font-size: clamp(2rem, 6vw, 3rem); margin: 0 0 0.5rem; }
-.hero .subtitle { color: var(--muted); font-size: 1.1rem; max-width: 60ch; }
 
-.cta { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.25rem; }
-.button {
-  display: inline-block; border: 1px solid var(--border); border-radius: 8px; padding: 0.6rem 0.9rem;
-  text-decoration: none; color: var(--text); background: var(--card);
+.post-header {
+  margin-bottom: 2rem;
 }
-.button.primary { background: var(--link); color: white; border-color: var(--link); }
-.button:hover { filter: brightness(1.05); transform: translateY(-1px); transition: all 160ms ease; }
 
-.section { padding: 2.25rem 0; }
-.section h2 { margin: 0 0 1rem; font-size: 1.6rem; }
-.section p { color: var(--muted); }
-
-.grid { display: grid; gap: 1rem; }
-.cards { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-.card { border: 1px solid var(--border); background: var(--card); border-radius: 12px; padding: 1rem; }
-.card h3 { margin: 0 0 0.25rem; font-size: 1.1rem; }
-.card .meta { color: var(--muted); font-size: 0.95rem; }
-
-ul.clean { list-style: none; padding: 0; margin: 0; }
-ul.clean li { margin: 0.25rem 0; }
-
-.social { display: flex; gap: 0.75rem; }
-.social a { display: inline-flex; align-items: center; gap: 0.4rem; text-decoration: none; color: var(--text); border: 1px solid var(--border); border-radius: 999px; padding: 0.4rem 0.7rem; background: var(--card); }
-.social a:hover { color: var(--link); }
-
-footer.site-footer { border-top: 1px solid var(--border); padding: 1rem 0; margin-top: 2rem; color: var(--muted); }
-
-/* Skip to content accessibility */
-.sr-only { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
-.sr-only:focus { left: 1rem; top: 1rem; width: auto; height: auto; padding: 0.5rem 0.75rem; background: var(--card); color: var(--text); border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,.08); z-index: 1000; }
-
-/* Blog */
-.post-list { display: grid; gap: 1rem; }
-.post-card { border: 1px solid var(--border); border-radius: 10px; padding: 1rem; background: var(--card); }
-.post-card a { text-decoration: none; color: var(--text); }
-.post-card a:hover { color: var(--link); }
-.post-card .date { color: var(--muted); font-size: 0.9rem; }
-
-/* Code highlighting tweaks (Rouge classes) */
-pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-pre { background: #0f172a10; border: 1px solid var(--border); border-radius: 10px; padding: 1rem; overflow: auto; }
-code { background: #0f172a10; padding: 0.15rem 0.35rem; border-radius: 6px; }
-
-/* Responsive */
-@media (max-width: 640px) {
-  nav a { margin-left: 0.75rem; }
-  .hero { padding-top: 3rem; }
+.post-title {
+  margin-bottom: 0.5rem;
 }
+
+.post-meta {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.post-categories,
+.post-tags {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.category,
+.tag {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.dark .category,
+.dark .tag {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.post-content {
+  line-height: 1.7;
+  margin-top: 2rem;
+}
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.post-navigation a {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.back-to-blog {
+  margin-top: 2rem;
+}
+
+

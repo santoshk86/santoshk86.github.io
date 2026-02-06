@@ -3,22 +3,12 @@ description: "Principal Software Engineer — .Net, ML, AI"
 url: "https://santoshk86.github.io" # Update if deploying under a custom domain
 baseurl: "" # For user/organization pages, keep empty
 
+theme: null
 markdown: kramdown
 kramdown:
   input: GFM
 highlighter: rouge
-
 permalink: /blog/:year/:month/:day/:title/
-
-# Defaults for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Santosh Kumar Singh"
-      comments: false
 
 # Site-wide variables (edit as needed)
 author:
@@ -32,6 +22,20 @@ social:
   linkedin: "https://www.linkedin.com/in/singhk86/"
   github: "https://github.com/santoshk86"
   stackoverflow: ""
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
 
 # Exclude build artifacts
 exclude:

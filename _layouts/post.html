@@ -1,35 +1,74 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    <a class="sr-only" href="#main" onclick="document.getElementById('main').focus()">Skip to content</a>
-    <header class="site-header">
-      <div class="container">
-        <div class="brand">{{ site.title }}</div>
-        <nav>
-          <a href="/">Home</a>
-          <a href="https://1drv.ms/w/c/e7ee95718edb5e82/IQCCXtuOcZXuIIDn0jkAAAAAAV5g4qXEYIoaoTEOrYCkXyc?e=RiItJK" target="_blank" rel="noopener">CV</a>
-          <a href="/blog/">Blog</a>
-        </nav>
-      </div>
-    </header>
+---
+layout: default
+---
 
-    <main id="main" class="container" tabindex="-1">
-      <article>
-        <h1>{{ page.title }}</h1>
-        <p class="meta">{{ page.date | date: "%B %d, %Y" }}</p>
-        <div class="post-content">
-          {{ content }}
-        </div>
-      </article>
-    </main>
+<article class="post">
 
-    <footer class="site-footer">
-      <div class="container">
-        {% include footer.html %}
-      </div>
-    </footer>
-  </body>
-</html>
+  <!-- Post Header -->
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    <p class="post-meta">
+      <span class="post-date">
+        {{ page.date | date: "%B %d, %Y" }}
+      </span>
+
+      {% if page.author %}
+        • <span class="post-author">{{ page.author }}</span>
+      {% else %}
+        • <span class="post-author">{{ site.author }}</span>
+      {% endif %}
+    </p>
+
+    <!-- Categories -->
+    {% if page.categories %}
+    <div class="post-categories">
+      <strong>Categories:</strong>
+      {% for category in page.categories %}
+        <span class="category">{{ category }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Tags -->
+    {% if page.tags %}
+    <div class="post-tags">
+      <strong>Tags:</strong>
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <!-- Post Content -->
+  <section class="post-content">
+    {{ content }}
+  </section>
+
+  <!-- Post Footer -->
+  <footer class="post-footer">
+
+    <!-- Navigation -->
+    <nav class="post-navigation">
+      {% if page.previous %}
+        <a class="prev-post" href="{{ page.previous.url }}">
+          ← {{ page.previous.title }}
+        </a>
+      {% endif %}
+
+      {% if page.next %}
+        <a class="next-post" href="{{ page.next.url }}">
+          {{ page.next.title }} →
+        </a>
+      {% endif %}
+    </nav>
+
+    <!-- Back to Blog -->
+    <div class="back-to-blog">
+      <a href="/blog/">← Back to all posts</a>
+    </div>
+
+  </footer>
+
+</article>
