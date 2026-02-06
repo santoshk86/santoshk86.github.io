@@ -18,13 +18,15 @@ body {
 }
 
 .site-header {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .nav {
-  display: flex;
+   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem 2rem;
 }
 
@@ -35,12 +37,12 @@ body {
 }
 
 .nav-links a {
-  text-decoration: none;
+   text-decoration: none;
   color: var(--text);
 }
 
 .nav-links a:hover {
-  color: var(--accent);
+   color: var(--accent);
 }
 
 .page h1,
@@ -54,29 +56,35 @@ body {
 }
 
 .site-footer {
-  text-align: center;
+ text-align: center;
   padding: 2rem;
-  color: #777;
   font-size: 0.9rem;
+  color: #777;
 }
 :root {
   --bg: #ffffff;
-  --text: #222;
+  --text: #222222;
   --accent: #007acc;
+  --border: rgba(0, 0, 0, 0.1);
 }
 
 .dark {
   --bg: #121212;
   --text: #eaeaea;
   --accent: #4dabf7;
+  --border: rgba(255, 255, 255, 0.15);
 }
+
 .dark .site-header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
   background: var(--bg);
   color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .post {
   margin-bottom: 4rem;
@@ -104,8 +112,8 @@ body {
 .category,
 .tag {
   display: inline-block;
-  margin-right: 0.5rem;
   padding: 0.2rem 0.5rem;
+  margin-right: 0.3rem;
   background: rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   font-size: 0.8rem;
@@ -117,8 +125,7 @@ body {
 }
 
 .post-content {
-  line-height: 1.7;
-  margin-top: 2rem;
+ line-height: 1.7;
 }
 
 .post-navigation {
@@ -134,6 +141,18 @@ body {
 
 .back-to-blog {
   margin-top: 2rem;
+}
+.logo {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+}
+#theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--text);
 }
 
 
