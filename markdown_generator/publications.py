@@ -1,6 +1,6 @@
-# Publications markdown generator for AcademicPages
+# Publications markdown generator for santoshk86
 # 
-# Takes a TSV / CSV of publications with metadata and converts them for use with [academicpages.github.io](academicpages.github.io). 
+# Takes a TSV / CSV of publications with metadata and converts them for use with [santoshk86.github.io](santoshk86.github.io). 
 # Can be called via the command prompt by using `python3 publications.py [filename]`.
 
 # Data format
