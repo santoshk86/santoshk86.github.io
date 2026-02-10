@@ -4,4 +4,4 @@ excerpt: "This is a external blog site where you can find all AI related article
 collection: portfolio
 ---
 
-<a href="https://ai.singhsk.com/">AI blog</a>
+<a href="https://ai.singhsk.com/" target="_blank" rel="noopener noreferrer">AI blog</a>
