@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Santosh Kumar Singh"
-  pronouns         : "Her"  
+  pronouns         : # "he/him" (optional)
   bio              : "I’m a Principal Software Engineer with 18+ years in software development and team management, delivering complex systems from concept to production. I partner with stakeholders to turn ambiguous problems into reliable, scalable solutions, while building strong teams through coaching, standards, and engineering excellence."
   location         : "Las Vegas, NV"
   employer         : "Aristocrat Technologies Inc."
