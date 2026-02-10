@@ -1,18 +1,10 @@
 # Authors
 
 Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
+  name        : "Santosh Kumar Singh"
+  uri         : "https://singhsk.com"
+  email       : "openai.singh@gmail.com"
+  bio         : "Principal Software Engineer with 18+ years of experience building scalable software and leading high-performing teams. I focus on clean architecture, reliable delivery, and mentoring engineers to ship high-quality products with measurable impact."
   avatar      : "bio-photo-2.jpg"
   twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
   google_plus : "Name"
