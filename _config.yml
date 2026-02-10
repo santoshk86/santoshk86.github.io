@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Santosh Kumar Singh / Santosh Kumar Singh" # Update this with your name or the title of your site
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Santosh Kumar Singh" # Update this with your name or the title of your site
 title_separator          : "-"
 name                     : "Santosh Kumar Singh"
 description              : "Santosh Kumar Singh's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
