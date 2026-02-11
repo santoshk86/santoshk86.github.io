@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 Principal Software Engineer | Full-Stack & Microsoft Technologies
+
 ---
 
 17+ years of experience in software engineering, architecture, and technical leadership
@@ -16,6 +17,7 @@ I design, build, and lead the development of scalable, secure, and high-performa
 My work spans full-stack development, system architecture, cloud platforms, and engineering leadership, with a strong focus on long-term maintainability and business impact.
 
 Professional Summary
+
 ---
 
 Principal Software Engineer with 17+ years of experience delivering complex software solutions across enterprise environments.
@@ -23,6 +25,7 @@ Proven track record in leading engineering teams, designing distributed systems,
 Hands-on expertise across the full stack, from backend architecture to frontend development, with deep specialization in the Microsoft ecosystem.
 
 Technology Stack
+
 ---
 
 Backend:
@@ -39,6 +42,7 @@ Microsoft Azure, CI/CD pipelines, Docker, Kubernetes
 
 Architecture & Tools:
 REST, Event-driven systems, Design Patterns, Git, Azure DevOps
+
 ---
 
 [Portfolio](/portfolio/) • [Blogs](/year-archive/) • [CV](/cv/)

@@ -9,12 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Summary 
+Summary
+
 ---
 
 A Principal Software Engineer with 17+ years of professional experience in designing, developing, testing, and deploying C#.Net applications on time, meeting quality standards and customer expectations. Able to gather and analyze internal and external business requirement and transforming specifications into software solution. Primary engaged in hybrid mobile app development, loyalty products SME, micros services, security of applications and services into AWS cloud infrastructure.
 
 Work experience
+
 ---
 
 * Principal Software Engineer: Aristocrat Technologies Inc. (USA): Jan. 2022
@@ -57,6 +59,7 @@ Work experience
   * Worked as scrum master (Agile methodology).
 
 Education
+
 ---
 
 * Master of Computer Applications, Uttar Pradesh Technical University, 2008
@@ -65,6 +68,7 @@ Education
 * High school, Uttar Pradesh Board school, 2000
 
 Technical experience
+
 ---
 
 * Projects
@@ -73,6 +77,7 @@ Technical experience
   * Bonusing Apps/Speed Media and other applications in Oasis360 project suite (2012-2017)
 
 Additional experience and Awards
+
 ---
 
 * Employee of the quarter awards.
@@ -80,6 +85,7 @@ Additional experience and Awards
 * Many times, on the spot awards within department.
 
 Skills
+
 ---
 
 * C#.NET; C++; MSSQL; Typescripts/JavaScript; XSLT; JSON; XML (XSD) Schema
@@ -90,6 +96,7 @@ Skills
 * Visual studio, Android studio, TFS, JIRA, GitHub, GIT
 
 Professional Certificates
+
 ---
 
 * Microsoft
@@ -107,6 +114,7 @@ Professional Certificates
   * Professional scrum master (PSM II) certification
 
 Gaming Patents
+
 ---
 
 * P07240NPORDUS4 (3776)
