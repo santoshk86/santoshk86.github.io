@@ -569,3 +569,16 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.article-card {
+  border: 1px solid #e1e4e8;
+  padding: 20px;
+  border-radius: 8px;
+}
+

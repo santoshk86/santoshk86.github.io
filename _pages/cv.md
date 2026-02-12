@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,54 +9,176 @@ redirect_from:
 
 {% include base_path %}
 
-Summary
+# Santosh Singh
+
+📍 Las Vegas, NV  
+📞 (702) 945-1217  
+📧 openai.singh@gmail.com
 
 ---
 
-A Principal Software Engineer with 17+ years of professional experience in designing, developing, testing, and deploying C#.Net applications on time, meeting quality standards and customer expectations. Able to gather and analyze internal and external business requirement and transforming specifications into software solution. Primary engaged in hybrid mobile app development, loyalty products SME, micros services, security of applications and services into AWS cloud infrastructure.
+Principal Software Engineer
 
-Work experience
+Senior engineering leader with 17+ years of experience designing, modernizing, and deploying enterprise-grade distributed systems and customer-facing applications. Deep expertise in .NET ecosystems, microservices architecture, hybrid mobile platforms, and cloud-native deployments (AWS, Azure). Proven ownership of product delivery, architecture modernization, DevOps implementation, and agile leadership.
+
+Subject Matter Expert in loyalty systems and gaming technology platforms with strong experience in high-availability systems, secure API architecture, and scalable cloud infrastructure.
 
 ---
 
-* Principal Software Engineer: Aristocrat Technologies Inc. (USA): Jan. 2022
-  * Developed/ Supporting patron facing hybrid mobile app using Ionic 5 + angular 10. Implemented REST API (Micro’s services architecture) as backend of mobile app and deployed within AWS cloud.
-  * Developed REST APIs using .Net core with RabbitMQ as messaging framework. Re-designed customer facing web application with C#, Asp.NET and MS SQL.
-  * Developed TCP socket service for gaming vendor to publish data to our Loyalty product suite.
-  * Worked on Client server architecture over the TCP and UDP protocol of layer 4 systems protocols.
-  * Migrated legacy product to AWS cloud Infrastructure.
-  * Complete ownership on the projects and work items for successful completion of projects.
-  * Working as scrum master with full ownership for backlog updates.
+Core Competencies
 
-* Senior Software Engineer: Aristocrat Technologies Inc. (USA): Feb. 2019- Dec. 2021
-  * Developed patron facing hybrid mobile app using Ionic 5 + angular 10. Implemented REST API (Micro’s services architecture) as backend of mobile app and deployed within AWS cloud.
-  * Developed REST APIs using .Net core with RabbitMQ as messaging framework. Re-designed customer facing web application with C#, Asp.NET and MS SQL.
-  * Developed TCP socket service for gaming vendor to publish data to our Loyalty product suite.
-  * Leading team for technical guidance and focused on deliveries.
+---
 
-* Associate Architect: Aristocrat Technologies Pvt. Ltd.: Jan. 2019 – Feb. 2019
-  * Mentor/Lead 15+ technical team member on loyalty product suite.
-  * Implemented CI/CD pipeline with TFS to automate build and deployment.
-  * Implemented Identity server inhouse in ATI with OAuth protocol with JWT toke base authentication and authorization solution.
-  * Worked with product owner/senior architects on product releases and technical roadmap.
+  * Microservices Architecture & REST API Design
+  * Cloud-Native Architecture (AWS, Azure, GCP)
+  * Hybrid Mobile Development (Ionic, Angular)
+  * Distributed Systems & Messaging (RabbitMQ)
+  * TCP/UDP Socket Programming
+  * Identity & Access Management (OAuth2, JWT)
+  * CI/CD Pipeline Implementation
+  * DevOps & Containerization (Docker, Kubernetes)
+  * Agile / Scrum Leadership
+  * Enterprise Logging & Observability
 
-* Lead Software Engineer: Aristocrat Technologies Pvt. Ltd.: May 2012 – Dec. 2018
-  * Mentor/Lead 5+ technical team member on Oasis 360 product suite.
-  * Developed web services using .Net SOAP and REST architecture.
-  * mplemented code in Oasis 360 product suite applications. Work around 20+ applications and services in Oasis 360 product suite.
-  * Mentor on the code reviews and design architecture with team.
-  * Worked with product owner/senior architects on product releases and technical roadmap.
+---
 
-* Senior Software Engineer: Dell Services: Sept. 2010 – Apr. 2012
-  * Developed, debugged, and tested web service in C#, ASP.NET, HL7 healthcare protocol, WCF, MS SQL for Experian client.
-  * Developed automation for load testing simulation for web services.
-  * Worked as scrum master for 6 team members in team.
+Professional Experience
 
-* Software Engineer, Intern: Xcino Technologies Pvt. Ltd.: May 2008 – Sept. 2010
-  * Designed, developed, debugged, and tested web application using C#, Asp.net, JavaScript, MS SQL.
-  * Developed 100%-unit test for backend services.
-  * Developed SQL procedure, functions, and triggers for backend business logic.
-  * Worked as scrum master (Agile methodology).
+---
+
+* Principal Software Engineer, 
+Aristocrat Technologies Inc., USA
+Jan 2022 – Present
+
+  * Architected and supported patron-facing hybrid mobile applications using Ionic 5 and Angular 10.
+  * Designed and implemented microservices-based REST APIs using .NET Core and RabbitMQ.
+  * Deployed and managed services in AWS cloud infrastructure.
+  * Re-architected customer-facing web applications using C#, ASP.NET, and MS SQL.
+  * Developed TCP socket services for third-party gaming vendors to integrate with loyalty product suite.
+  * Led migration of legacy systems to AWS cloud infrastructure.
+  * Served as Scrum Master, owning backlog management and delivery execution.
+  * Maintained end-to-end ownership of architecture, implementation, and production support.
+
+---
+
+* Senior Software Engineer,
+Aristocrat Technologies Inc., USA
+Feb 2019 – Dec 2021
+
+  * Developed hybrid mobile applications using Ionic and Angular for casino patron engagement.
+  * Built scalable REST APIs using .NET Core with RabbitMQ messaging framework.
+  * Redesigned customer web applications to improve performance and maintainability.
+  * Developed TCP socket integration services for loyalty product systems.
+  * Provided technical leadership and delivery oversight for engineering team.
+
+---
+
+* Associate Architect,
+Aristocrat Technologies Pvt. Ltd.
+Jan 2019 – Feb 2019
+
+  * Led and mentored 15+ engineers across loyalty product suite initiatives.
+  * Designed and implemented CI/CD pipelines using TFS.
+  * Implemented in-house Identity Server using OAuth2 and JWT-based authentication.
+  * Collaborated with product owners and senior architects on roadmap planning and releases.
+
+---
+
+* Lead Software Engineer,
+Aristocrat Technologies Pvt. Ltd.
+May 2012 – Dec 2018
+
+  * Led development across 20+ applications within Oasis 360 loyalty suite.
+  * Designed and implemented SOAP and REST web services using .NET technologies.
+  * Conducted architecture reviews and code quality governance.
+  * Collaborated on product releases and long-term technical roadmap.
+
+---
+
+* Senior Software Engineer,
+Dell Services
+Sept 2010 – Apr 2012
+
+  * Developed and tested healthcare web services using C#, ASP.NET, WCF, MS SQL, and HL7 protocols.
+  * Built automated load-testing simulation frameworks.
+  * Served as Scrum Master for a 6-member team.
+
+---
+
+* Software Engineer,
+Xcino Technologies Pvt. Ltd.
+May 2008 – Sept 2010
+
+  * Designed and developed web applications using C#, ASP.NET, JavaScript, and MS SQL.
+  * Achieved 100% unit test coverage for backend services.
+  * Developed SQL procedures, triggers, and functions for business logic implementation.
+  * Practiced Agile methodologies as Scrum Master.
+
+---
+
+Key Projects
+
+---
+
+* EnrollMix | Drinks on Tab | FloorFocus (2021)
+  * Hybrid mobile applications for casino ecosystems enabling player enrollment, drink ordering from EGMs, and work-order tracking.
+  * Tech Stack: Ionic, Angular, .NET Core APIs, AWS, MS SQL
+
+* Oasis Loyalty Suite (2017–2020)
+  * Enterprise loyalty management platform consisting of 15+ web and desktop applications.
+  * Tech Stack: C#, ASP.NET, WPF, Web Services, JavaScript, MS SQL
+
+* Oasis 360 – Bonusing & Speed Media Applications (2012–2017)
+  * Enhancements and feature development across loyalty and gaming applications.
+
+---
+
+Technical Skills
+
+---
+
+* Languages:
+  * C#, C++, TypeScript, JavaScript, SQL, XML (XSD), JSON, XSLT
+
+* Frameworks & Platforms:
+  * .NET Core, ASP.NET, WCF, WPF, Ionic, Angular
+
+* Cloud & DevOps:
+  * AWS, Azure, GCP
+  * Docker, Docker Swarm, Kubernetes
+  * CI/CD (TFS), Git, GitHub
+
+* Messaging & Observability:
+  * RabbitMQ
+  * nLog, Serilog, Grafana, Prometheus, AppDynamics
+
+* Tools:
+  * Visual Studio, Android Studio, Jira, TFS
+
+---
+
+Certifications
+
+---
+
+* AWS
+  * AWS Certified Cloud Practitioner
+  * AWS Certified Solutions Architect – Associate
+  * AWS Certified Solutions Architect – Professional
+
+* Microsoft
+  * Microsoft Certified Professional
+  * Microsoft Certified Application Developer
+  * Microsoft Certified Technology Specialist
+
+* Azure
+  * Azure Fundamentals Certification
+
+* Scrum
+  * Professional Scrum Master (PSM I)
+  * Professional Scrum Master (PSM II)
+
+---
 
 Education
 
@@ -67,53 +189,20 @@ Education
 * 12th College, Uttar Pradesh Board school, 2002
 * High school, Uttar Pradesh Board school, 2000
 
-Technical experience
+---
+
+Awards & Recognition
 
 ---
 
-* Projects
-  * EnrollMix, Drinks on tab, Floorfocus (2021). Mobile apps where casino users can enroll player using ID scan, customer can order drinks from EGM and tack the transactions in the app, casino can track EGM workorder from the floor focus app. Ionic + Angular, .Net core API, AWS, MS SQL.
-  * OasisLoyalty suite (2017 – 2020). Webs and windows applications collection in loyalty suite. Worked and re-designed 15+ application in this product suite. C#.NET, Asp.Net, WPF, Web services, JavaScript, MS SQL
-  * Bonusing Apps/Speed Media and other applications in Oasis360 project suite (2012-2017)
-
-Additional experience and Awards
+* Employee of the Quarter
+* Multiple Winning Ways Awards
+* Multiple Spot Awards for Performance Excellence
+* Additional experience and Awards
 
 ---
 
-* Employee of the quarter awards.
-* Multiple winning ways awards from across the team.
-* Many times, on the spot awards within department.
-
-Skills
-
----
-
-* C#.NET; C++; MSSQL; Typescripts/JavaScript; XSLT; JSON; XML (XSD) Schema
-* Asp.Net; WCF; WPF; .Net core; APIs; Ionic; Angular; Typescript
-* Enterprise logging, nLog, DB logging, Grafana and Prometheus, AppD logging, SeriLog
-* Docker, Docket swarm, Kubernetes pads, Containers
-* AWS cloud; Azure cloud; Google cloud
-* Visual studio, Android studio, TFS, JIRA, GitHub, GIT
-
-Professional Certificates
-
----
-
-* Microsoft
-  * Microsoft certified professional
-  * Microsoft certified program developer
-  * Microsoft certified technologies specialist
-* AWS
-  * AWS certified cloud practitioner
-  * AWS certified solution architect – Associate
-  * AWS certified solution architect – Professional
-* Azure
-  * Azure fundamentals certification
-* Scrum master
-  * Professional scrum master (PSM I) certification
-  * Professional scrum master (PSM II) certification
-
-Gaming Patents
+Patents (Gaming Technology)
 
 ---
 

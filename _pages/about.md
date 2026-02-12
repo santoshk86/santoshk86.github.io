@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Santosh Kumar Singh"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,37 +11,35 @@ Principal Software Engineer | Full-Stack & Microsoft Technologies
 
 ---
 
-17+ years of experience in software engineering, architecture, and technical leadership
+17+ years of experience in software engineering, architecture, and technical leadership.
 
 I design, build, and lead the development of scalable, secure, and high-performance enterprise applications using Microsoft technologies.
 My work spans full-stack development, system architecture, cloud platforms, and engineering leadership, with a strong focus on long-term maintainability and business impact.
 
-Professional Summary
-
 ---
 
-Principal Software Engineer with 17+ years of experience delivering complex software solutions across enterprise environments.
-Proven track record in leading engineering teams, designing distributed systems, and driving technical strategy.
-Hands-on expertise across the full stack, from backend architecture to frontend development, with deep specialization in the Microsoft ecosystem.
+## Latest Technical Articles
 
-Technology Stack
+<div class="articles-grid">
 
----
+{% assign sorted_articles = site.data.articles | sort: "date" | reverse %}
+{% for article in sorted_articles limit:2 %}
 
-Backend:
-C#, .NET, ASP.NET Core, Web APIs, Microservices
+  <div class="article-card">
+    <h3>{{ article.title }}</h3>
+    <p>{{ article.description }}</p>
+    <a href="{{ article.link }}" target="_blank" rel="noopener noreferrer">
+      Read Article →
+    </a>
+  </div>
 
-Frontend:
-JavaScript, TypeScript, Angular, React, HTML, CSS
+{% endfor %}
 
-Databases:
-SQL Server, Azure SQL, NoSQL databases
+</div>
 
-Cloud & DevOps:
-Microsoft Azure, CI/CD pipelines, Docker, Kubernetes
-
-Architecture & Tools:
-REST, Event-driven systems, Design Patterns, Git, Azure DevOps
+<p style="margin-top:20px;">
+  <a href="/articles/">View All Articles →</a>
+</p>
 
 ---
 
