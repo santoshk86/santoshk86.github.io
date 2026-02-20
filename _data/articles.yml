@@ -1,3 +1,11 @@
+- title: "Why Amazon is the Latest Tech Giant to Bet Big on AI"
+  description: "Andy CEO Andy Jassy confirmed on a Q4 2025 earnings call that he expects about US$200bn in CapEx across Amazon in 2026, with the majority focused on AWS."
+  link: "https://aimagazine.com/news/amazon-ceo-andy-jassy-on-ai-investment-2026"
+
+- title: "NVIDIA's Vision for the Next Wave of AI Development"
+  description: "NVIDIA CEO Jensen Huang tackles concerns about AI replacing software tools and shares the company's vision for advancing the next wave of AI development."
+  link: "https://aimagazine.com/news/jensen-huang-on-next-ai-development-wave"
+
 - title: "Amazon blames human employees for an AI coding agent’s mistake"
   description: "Amazon blames human employees for an AI coding agent’s mistake."
   link: "https://www.theverge.com/ai-artificial-intelligence/882005/amazon-blames-human-employees-for-an-ai-coding-agents-mistake"
@@ -17,11 +25,3 @@
 - title: "New AI model could cut the costs of developing protein drugs"
   description: "MIT researchers used a large language model to optimize the genetic sequences of proteins manufactured by yeast, making production more efficient."
   link: "https://news.mit.edu/2026/new-ai-model-could-cut-costs-developing-protein-drugs-0216"
-
-- title: "Why Amazon is the Latest Tech Giant to Bet Big on AI"
-  description: "Andy CEO Andy Jassy confirmed on a Q4 2025 earnings call that he expects about US$200bn in CapEx across Amazon in 2026, with the majority focused on AWS."
-  link: "https://aimagazine.com/news/amazon-ceo-andy-jassy-on-ai-investment-2026"
-
-- title: "NVIDIA's Vision for the Next Wave of AI Development"
-  description: "NVIDIA CEO Jensen Huang tackles concerns about AI replacing software tools and shares the company's vision for advancing the next wave of AI development."
-  link: "https://aimagazine.com/news/jensen-huang-on-next-ai-development-wave"
