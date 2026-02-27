@@ -43,5 +43,5 @@ My work spans full-stack development, system architecture, cloud platforms, and 
 
 ---
 
-[Portfolio](/portfolio/) • [Blogs](/year-archive/) • [CV](/cv/)
+[Portfolio](/portfolio/) • [Blogs](/blog-posts/) • [CV](/cv/)
 
