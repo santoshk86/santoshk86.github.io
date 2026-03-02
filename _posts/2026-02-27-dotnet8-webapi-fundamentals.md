@@ -294,3 +294,7 @@ app.MapGet("/todos/{id:int}", (int id) =>
 ```
 
 This isn’t “production-ready” (no persistence, no auth, no concurrency handling), but it’s a perfect fundamentals lab.
+
+------------------------------------------------------------------------
+
+**Next Article:** Setting Up Your .NET 8 Development Environment (SDK, VS Code/Visual Studio, and CLI Basics)
