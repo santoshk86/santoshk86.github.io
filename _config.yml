@@ -8,10 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-theme                    : "minimal-mistakes-jekyll" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-include-cache
+remote_theme             : "mmistakes/minimal-mistakes"
 title                    : "Santosh Kumar Singh" # Update this with your name or the title of your site
 title_separator          : "-"
 name                     : "Santosh Kumar Singh"
@@ -312,16 +309,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
-# Mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
+  - jekyll-include-cache
 
 # Archives
 #  Type
