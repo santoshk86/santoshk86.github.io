@@ -35,15 +35,27 @@ for file in g:
         continue
 
     # Prepare the description
-    title = data['title'].strip()
-    venue = data['venue'].strip()
-    location = data['location'].strip()
-    description = f"{title}<br />{venue}; {location}"
+    title = str(data.get('title', '')).strip()
+    venue = str(data.get('venue', '')).strip()
+    location = str(data.get('location', '')).strip()
+
+    if not location:
+        continue
+
+    if venue:
+        description = f"{title}<br />{venue}; {location}"
+    else:
+        description = f"{title}<br />{location}"
 
     # Geocode the location and report the status
     try:
-        location_dict[description] = geocoder.geocode(location, timeout=TIMEOUT)
-        print(description, location_dict[description])
+        geocoded = geocoder.geocode(location, timeout=TIMEOUT)
+        if geocoded is None:
+            print(f"Warning: geocode returned no result for {location}")
+            continue
+
+        location_dict[description] = geocoded
+        print(description, geocoded)
     except ValueError as ex:
         print(f"Error: geocode failed on input {location} with message {ex}")
     except GeocoderTimedOut as ex:

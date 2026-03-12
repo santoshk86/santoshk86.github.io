@@ -16,7 +16,7 @@ import os
 import sys
 
 # Flag to indicate an error occurred
-EXIT_ERROR = 0
+EXIT_ERROR = 1
 
 # The expected layout of the CSV / TSV file
 HEADER_LEGACY  = ['pub_date', 'title', 'venue', 'excerpt', 'citation', 'url_slug', 'paper_url', 'slides_url']
@@ -117,3 +117,4 @@ if __name__ == '__main__':
     # Read and process the lines
     lines, layout = read(filename)
     create_md(lines, layout)
+

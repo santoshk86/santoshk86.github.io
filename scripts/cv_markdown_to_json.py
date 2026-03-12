@@ -54,7 +54,7 @@ def parse_markdown_cv(md_file):
 
 def parse_config(config_file):
     """Parse the Jekyll _config.yml file for additional information."""
-    if not os.path.exists(config_file):
+    if not config_file or not os.path.exists(config_file):
         return {}
     
     with open(config_file, 'r', encoding='utf-8') as file:
@@ -423,7 +423,8 @@ def main():
     # Get repository root (parent directory of the input file's directory)
     repo_root = str(Path(args.input).parent.parent)
     
-    create_cv_json(args.input, args.config, repo_root, args.output)
+    config_file = args.config or os.path.join(repo_root, "_config.yml")
+    create_cv_json(args.input, config_file, repo_root, args.output)
 
 if __name__ == '__main__':
     main()

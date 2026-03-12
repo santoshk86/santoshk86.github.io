@@ -16,7 +16,9 @@ let determineComputedTheme = () => {
   if (themeSetting != "system") {
     return themeSetting;
   }
-  return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+  return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
 };
 
 // detect OS/browser preference
@@ -61,7 +63,13 @@ if (plotlyElements.length > 0) {
     if (document.readyState === "complete") {
       plotlyElements.forEach((elem) => {
         // Parse the Plotly JSON data and hide it
-        var jsonData = JSON.parse(elem.textContent);
+        let jsonData;
+        try {
+          jsonData = JSON.parse(elem.textContent);
+        } catch (error) {
+          console.warn("Skipping invalid Plotly JSON payload:", error);
+          return;
+        }
         elem.parentElement.classList.add("hidden");
 
         // Add the Plotly node
