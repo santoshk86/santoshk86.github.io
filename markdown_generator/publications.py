@@ -41,7 +41,8 @@ def create_md(lines: list, layout: list):
         html_filename = str(item[layout.index('pub_date')]) + "-" + item[layout.index('url_slug')]
         
         # Parse the YAML variables
-        md = f"---\ntitle: \"{item[layout.index('title')]}\"\n"
+        title = html_escape(item[layout.index('title')])
+        md = f"---\ntitle: \"{title}\"\n"
         md += "collection: publications"
         if len(layout) == len(HEADER_UPDATED):
             md += f"\ncategory: {item[layout.index('category')]}"
@@ -66,7 +67,7 @@ def create_md(lines: list, layout: list):
         
         # Write the file
         md_filename = os.path.join("../_publications/", os.path.basename(md_filename))
-        with open(md_filename, 'w') as f:
+        with open(md_filename, 'w', encoding='utf-8', newline='\n') as f:
             f.write(md)
 
 def html_escape(text):
@@ -78,7 +79,7 @@ def read(filename: str) -> tuple[list, list]:
 
     # Read the contents of the file
     lines = []
-    with open(filename, 'r') as file:
+    with open(filename, 'r', encoding='utf-8-sig') as file:
         delimiter = ',' if filename.endswith('.csv') else '\t'
         reader = csv.reader(file, delimiter=delimiter)
         for row in reader:
@@ -117,4 +118,3 @@ if __name__ == '__main__':
     # Read and process the lines
     lines, layout = read(filename)
     create_md(lines, layout)
-
