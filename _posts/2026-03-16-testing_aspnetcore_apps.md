@@ -1,6 +1,6 @@
 ---
 title: 'Testing ASP.NET Core Apps: xUnit and Integration Tests with WebApplicationFactory'
-date: 2026-03-16
+date: 2026-03-13
 permalink: /posts/2026/03/testing_aspnetcore_apps/
 tags:
   - dotnet

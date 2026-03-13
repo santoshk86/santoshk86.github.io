@@ -1,6 +1,6 @@
 ---
 title: 'EF Core Performance: AsNoTracking, Compiled Queries, and Split Queries'
-date: 2026-03-15
+date: 2026-03-13
 permalink: /posts/2026/03/efcore_performance/
 tags:
   - dotnet
