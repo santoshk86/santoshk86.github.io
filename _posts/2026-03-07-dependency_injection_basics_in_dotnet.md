@@ -320,4 +320,4 @@ If that model is clear, much of the framework stops feeling magical.
 
 ------------------------------------------------------------------------
 
-**Next Article:** Clean Architecture and Feature-Oriented Design in .NET 8
+**Next Article:** Building Your First Web API in .NET 8: Controllers, Minimal APIs, and Routing
