@@ -162,6 +162,7 @@ include:
   - _pages
   - files
 exclude:
+  - AGENTS.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
