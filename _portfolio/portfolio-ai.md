@@ -10,24 +10,26 @@ permalink: /portfolio/ai-articles/
 ---
 
 <section id="ai-articles" style="max-width: 900px; margin: 0 auto; font-family: Arial, sans-serif; line-height: 1.6;">
-  <h1 style="font-size: 32px; margin-bottom: 20px;">AI Engineering &amp; System Architecture</h1>
+  <h1 style="font-size: 32px; margin-bottom: 20px;">
+    AI Engineering &amp; System Architecture
+  </h1>
 
   <p style="font-size: 18px; margin-bottom: 20px;">
-    This section captures my applied work and structured thinking around Artificial Intelligence systems from an engineering and architectural perspective.
+    I explore Artificial Intelligence from an engineering and system architecture perspective - focusing on how AI capabilities can be designed, integrated, and operated as part of real-world software systems.
   </p>
 
   <p style="margin-bottom: 20px;">
-    The articles focus on production-grade AI implementation - model integration, inference pipelines, system scalability, observability, performance optimization, and architectural trade-offs. Rather than theoretical discussions, the content explores how AI capabilities are engineered into distributed, cloud-native systems at scale.
+    My articles go beyond AI concepts and model experimentation to examine the engineering challenges involved in building production-ready AI solutions. Topics include model and API integration, inference pipelines, Retrieval-Augmented Generation (RAG), AI agents, scalable architectures, cloud-native deployment, observability, performance optimization, reliability, and architectural trade-offs.
   </p>
 
   <p style="margin-bottom: 30px;">
-    If you are an engineer or architect evaluating practical AI adoption strategies, these writings provide detailed technical insights, real-world design decisions, and implementation considerations drawn from hands-on experience.
+    If you are a software engineer, architect, technology leader, or simply interested in practical AI adoption, my AI blog contains deeper technical articles, architecture perspectives, implementation patterns, and lessons from hands-on exploration of modern AI systems.
   </p>
 
   <a href="https://ai.singhsk.com/"
      target="_blank"
      rel="noopener noreferrer"
      style="display: inline-block; padding: 12px 20px; font-size: 16px; text-decoration: none; background-color: #222; color: #fff; border-radius: 6px;">
-     Explore AI Articles -&gt;
+     Explore My AI Articles -&gt;
   </a>
 </section>
